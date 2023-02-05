@@ -1,6 +1,6 @@
 #!/bin/bash
 
-lst=$(ls .)
+lst=$( ls /home/takaura/repo/repo_bash/bash/for_script)
 
 for file in $lst;do
 	if [ -f $file ]; then
